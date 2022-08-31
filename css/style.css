@@ -68,6 +68,193 @@
 }
 
 
+/* Quienes Somos */
+
+.main-quienesSomos{
+    display: flex;
+    padding: 25px;
+    background: rgb(199,165,74);
+    background: linear-gradient(0deg, rgba(199,165,74,1) 0%, rgba(239,229,202,1) 100%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionOne-quienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+}
+
+.sectionOne-quienesSomos p{
+    padding: 0 100px 50px 100px;
+}
+
+.liOne-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 116%;
+}
+
+.liOne-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    display: flex;
+}
+
+.liTwo-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row-reverse;
+    font-size: 116%;
+}
+
+.liTwo-quienesSomos img{
+    height: 400px;
+    width: 700px;
+}
+
+.liTwo-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.liThree-quienesSomos{
+    display: flex;
+    margin: 20px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 105%;
+}
+
+.liThree-quienesSomos p{
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Contacto */
+
+.main-contacto{
+    padding: 60px;
+    justify-items: space-between;
+    background-image: linear-gradient(to bottom, rgba(207, 76, 24, 0.655), rgb(6, 251, 247));
+}
+.grid-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 220, 0.464);
+    border-radius: 5%; 
+    padding: 40px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "contactanos necesitoOracion quieroDonar"
+      "contactanos necesitoOracion quieroDonar";
+  }
+  
+  .contactanos { 
+    grid-area: contactanos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .necesitoOracion { 
+    grid-area: necesitoOracion;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  
+  .quieroDonar { 
+    grid-area: quieroDonar; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+/* .main-contacto{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    background-image: url(../Images/fondo-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divOne-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+}
+
+.divTwo-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.divThree-contacto{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Images/degradado-difuminado-cafe-y-azul_1920x1080_8005.jpg);
+    width: 350px;
+    padding: 20px;
+    align-items: flex-start; 
+}    
+    */
+
+
+/* JIBA */
+
+.main-jiba{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    color: white;
+    font-size: 200%;
+    background: rgb(255,196,0);
+    background: linear-gradient(90deg, rgba(255,196,0,1) 32%, rgba(255,0,0,1) 85%);    
+}
+
+.sectionOne-jiba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.sectionOne-jiba img{
+    width: 290px;
+    height: 400px;
+    border: 5px;
+}
+
+.sectionTwo-jiba{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 
 
